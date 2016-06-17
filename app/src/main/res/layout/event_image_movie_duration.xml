@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="@dimen/event_item_movie_height"
+    android:layout_gravity="bottom"
+    android:background="@drawable/movie_duration_back"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/event_item_movie_height"
+        android:layout_marginLeft="@dimen/event_item_movie_text_left_margin"
+
+        android:textSize="@dimen/event_item_movie_text_size"
+        android:layout_gravity="center_vertical|left"
+        android:textColor="@color/movie_duration_text_color"
+        android:text="20:20"
+        android:gravity="left|center_vertical"
+        android:id="@+id/movie_duration"
+        />
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@mipmap/upload_loading"-->
+        <!--android:layout_gravity="left|center_vertical"-->
+        <!--android:id="@+id/uploading_logo"-->
+        <!--android:layout_marginLeft="@dimen/event_item_movie_text_left_margin"-->
+
+        <!--/>-->
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/upload_loading_word"-->
+        <!--android:src="@mipmap/upload_loading_word"-->
+        <!--android:layout_gravity="left|center_vertical"-->
+
+        <!--android:layout_marginLeft="32dp"-->
+        <!--/>-->
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@mipmap/video_icon"-->
+        <!--android:layout_marginRight="@dimen/event_item_movie_text_left_margin"-->
+        <!--android:layout_gravity="right|center_vertical"-->
+        <!--android:id="@+id/movie_icon"-->
+        <!--/>-->
+</FrameLayout>

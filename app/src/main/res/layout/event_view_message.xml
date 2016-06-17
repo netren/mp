@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:minHeight="64dp"
+
+    >
+    <include layout="@layout/event_shadow"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/event_item_padding"
+        android:layout_marginRight="@dimen/event_item_padding"
+
+        android:background="@color/event_item_background">
+
+        <ImageView
+            android:layout_width="@dimen/message_user_image_width"
+            android:layout_height="@dimen/message_user_image_width"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="14dp"
+            android:id="@+id/user_image" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:paddingRight="30dp"
+            android:paddingLeft="70dp"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_name"
+                android:text="爸爸"
+                android:textColor="@color/event_message_name"
+                android:textSize="14sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_text"
+                android:text=""
+                android:textColor="@color/event_message_text"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_gravity="top"
+        android:background="#eeeeee"
+        android:id="@+id/message_sperator"
+        />
+</FrameLayout>

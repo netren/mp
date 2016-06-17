@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!--for timeline-->
+    <color name="event_list_background">#fff5ea</color>
+    <color name="event_item_background">#fbfaf9</color>
+    <color name="image_loading_background">#e7f7f7</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="alpha">#00000000</color>
+    <color name="event_message_name">#999999</color>
+    <color name="event_message_text">#333333</color>
+    <color name="movie_back_color">#7f000000</color>
+    <color name="movie_duration_text_color">#ffffff</color>
+    <color name="main_event_status_color">#66cccc</color>
+    <color name="sign_cursor_color">#999999</color>
+    <color name="create_family_bar_btn_color">#66cccc</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/kennymac/Documents/macprj/mp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/Users/kennymac/Documents/macprj/mp/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.3.0_a32f2c1dbd39c5d20f1ced94404cd0e117c25282.jar" />
+    </item>
+
+</items>

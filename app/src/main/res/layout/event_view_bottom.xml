@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="@dimen/event_bottom_height"
+
+    >
+    <include layout="@layout/event_shadow"/>
+    <LinearLayout
+
+        android:layout_marginLeft="@dimen/event_item_padding"
+        android:layout_marginRight="@dimen/event_item_padding"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/event_item_background">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="补充相片"-->
+            <!--android:id="@+id/append_photo_btn"-->
+            <!--android:src="@mipmap/appendphoto_btn_normal"-->
+            <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+            <!--android:layout_gravity="right"-->
+             <!--/>-->
+
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="6dp"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:text="留言"-->
+            <!--android:src="@mipmap/leavemsg_none_btn_normal"-->
+            <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+            <!--android:id="@+id/msg_btn" />-->
+
+
+
+    </LinearLayout>
+</FrameLayout>

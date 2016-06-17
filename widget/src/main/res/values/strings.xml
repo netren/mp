@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">widget</string>
+    <string name="hc_date_format">%1$d.%2$d.%3$d</string>
+    <string name="month_day_format">%1$d月%2$d日</string>
+    <string name="year_month_day_format">%1$d月%2$d日 %3$d</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+
+    >
+
+    <include layout="@layout/event_shadow"/>
+    <LinearLayout
+        android:layout_marginLeft="@dimen/event_item_padding"
+        android:layout_marginRight="@dimen/event_item_padding"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/event_image_padding"
+        android:paddingRight="@dimen/event_image_padding"
+        android:background="@color/event_item_background"
+        >
+
+        <FrameLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/event_image_div"
+            android:layout_marginRight="@dimen/event_image_div"
+            android:layout_marginTop="@dimen/event_image_div"
+            android:layout_marginBottom="@dimen/event_image_div"
+            >
+            <com.zhangxinbaobao.ungoo.EventImageView
+                android:background="@color/image_loading_background"
+                android:layout_width="match_parent"
+
+                android:id="@+id/imageView0"
+
+                android:scaleType="centerCrop"
+                custom:useFitRatio="true"
+                android:layout_height="0dp" />
+
+            <include android:id="@+id/movie_duration_desc0"
+                layout="@layout/event_image_movie_duration"
+                />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/event_image_div"
+            android:layout_marginLeft="@dimen/event_image_div"
+            android:layout_marginTop="@dimen/event_image_div"
+            android:layout_marginBottom="@dimen/event_image_div"
+            >
+            <com.zhangxinbaobao.ungoo.EventImageView
+                android:background="@color/image_loading_background"
+                android:layout_width="match_parent"
+                android:id="@+id/imageView1"
+                android:scaleType="centerCrop"
+
+                custom:useFitRatio="true"
+                android:layout_height="0dp" />
+
+            <include android:id="@+id/movie_duration_desc1"
+                layout="@layout/event_image_movie_duration"
+                />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

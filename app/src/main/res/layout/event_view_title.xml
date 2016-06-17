@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="@dimen/conner_padding"
+        android:layout_marginTop="@dimen/conner_padding"
+
+        android:src="@mipmap/event_box_01"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"
+        android:src="@mipmap/event_box_02"
+        android:layout_marginTop="@dimen/conner_padding"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="right|top"
+        android:layout_marginRight="@dimen/conner_padding"
+        android:layout_marginTop="@dimen/conner_padding"
+
+        android:src="@mipmap/event_box_03"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="@dimen/conner_padding"
+        android:layout_marginTop="12dp"
+
+        android:src="@mipmap/event_box_04"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:scaleType="fitXY"
+        android:layout_marginRight="@dimen/conner_padding"
+        android:layout_marginTop="12dp"
+
+        android:src="@mipmap/event_box_06"
+
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/event_item_padding"
+        android:layout_marginRight="@dimen/event_item_padding"
+        android:layout_marginTop="@dimen/event_item_padding"
+
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_up_corner_event_item_view"
+        android:id="@+id/title_layout"
+        >
+
+        <com.gtphoto.mp.MarqueeText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:id="@+id/event_title"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:textSize="16sp"
+
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:ellipsize="marquee"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:clickable="true"
+            android:textColor="#666666"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="right|center_vertical"
+            android:text="日期"
+            android:id="@+id/event_date"
+            android:textSize="12sp"
+            android:textColor="#999999"
+            android:layout_marginLeft="4dp"
+
+
+             />
+
+        <!--<ImageButton-->
+
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+
+            <!--android:text="更多"-->
+            <!--android:src="@mipmap/more_btn_normal"-->
+            <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+            <!--android:layout_gravity="right|center_vertical"-->
+            <!--android:id="@+id/more_btn" />-->
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="@dimen/event_item_padding"
+        android:layout_marginRight="@dimen/event_item_padding"
+        android:layout_marginTop="@dimen/event_item_padding"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/input_layout"
+        android:background="@drawable/shape_up_corner_event_item_view"
+
+        android:visibility="gone">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/event_title_input"
+            android:textColor="#666666"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:ems="10"
+            android:background="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="修改提示"
+            android:inputType="text"
+            android:imeOptions="normal"
+            />
+
+
+
+    </LinearLayout>
+</FrameLayout>
